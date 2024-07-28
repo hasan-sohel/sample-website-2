@@ -1,0 +1,213 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+    font-family:'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding:0 7%;
+}
+#topbar{
+    background-color: black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+#social-icon{
+    float: right;
+    color: #fdfdfd;
+    font-size: 24px;
+}
+#social-icon a{
+    color: #fdfdfd;
+}
+#mylogo{
+    height: 99px;
+    width: 215px;
+    margin: 40px;
+}
+#navbar{
+    background-color: black;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* poster */
+#poster{
+    background-image: url(img/poster.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+    color: white;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 20px;
+    text-align: center;
+}
+/* why us */
+#mauntan{
+    height: 93px;
+    margin-left: 58px;
+}
+#clock{
+    height: 93px;
+    margin-left: 58px;
+}
+#book{
+    padding-top: 0px;
+    height: 101px;
+}
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.redheading{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+.section33 h2{
+    color: black;
+}
+.section33 p{
+    color: #363636;
+}
+/* contact */
+#contact-container{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+#contact-btn{
+    background-color: white;
+    color: black;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* blog */
+.section33 a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+/* subscribe */
+#subscribe-section{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+.section50 form{
+    padding-top: 0px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px; 
+    font-size: 15px;
+    color: gray;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: black;
+    border: 0px;
+}
+/* footer */
+#imp-link{
+    color: white;
+    margin-bottom: 50px;
+}
+#footer-1{
+    display: flex;
+    background-color: #a6c1dd;
+    color: rgb(0, 0, 0);
+}
+.div33{
+    width: 33.33%;
+    padding-left: 60px;
+}
+.div33 ul{
+    list-style-type: none;
+}
+.div33 h3{
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.div33 ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#copyright{
+    background-color: #111214;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
